@@ -330,11 +330,6 @@ class Examples {
     t.checkExpect(this.fifteenGame.tiles, this.tiles);
     t.checkExpect(this.fifteenGame.tiles.size(), 4);
     t.checkExpect(this.fifteenGame.tiles.get(0).size(), 4);
-
-    /*
-     * for (ArrayList<Tile> row : this.fifteenGame.tiles) { for (Tile tile : row) {
-     * System.out.println(tile.value); } }
-     */
   }
 
   // tests for swap
